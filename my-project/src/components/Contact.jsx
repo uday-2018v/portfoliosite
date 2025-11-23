@@ -37,8 +37,8 @@ export default function Contact() {
             <p className="text-gray-700">
               Feel free to reach out for collaborations or freelance work.
             </p>
-            <p><span className="font-semibold">Email:</span> veerukalpi@gmail.com</p>
-            <p><span className="font-semibold">Phone:</span> 9335297666</p>
+            <p><span className="font-semibold">Email:</span> veerukalpi2018@gmail.com</p>
+            <p><span className="font-semibold">Phone:</span> 9335296725</p>
             <div className="flex gap-4 mt-4">
               <a
                 href="https://github.com/uday-2018v"
