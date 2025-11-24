@@ -6,19 +6,26 @@ const educationData = [
     degree: "B.Tech in Information Technology",
     institution: "Axis Institute of Technology and Management",
     duration: "2021 – 2025",
-    cgpa: "7.52",
+    cgpa: "7.5",
   },
   {
     degree: "Higher Secondary (12th)",
-    institution: "ABC School, Kanpur",
-    duration: "2019 – 2021",
-    cgpa: "88%",
+    institution: "Dr. Ambedkar intercollege Ata, Jalaun",
+    duration: "2019 – 2020",
+    cgpa: "68%",
+  },
+   {
+    degree: "Higher School (10th)",
+    institution: "M.J.H intercollege Ata, Jalaun",
+    duration: "2018 – 2019",
+    cgpa: "85%",
   },
 ];
 
 export default function Education() {
   return (
-    <section className="py-20 bg-gray-50" id="education">
+    <section className="py-20 bg-gray-300" id="education" >
+      
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-10 text-center">Education</h2>
 

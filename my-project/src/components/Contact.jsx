@@ -26,7 +26,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-20 bg-white" id="contact">
+    <section className="py-20 bg-gray-300" id="contact">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-10 text-center">Contact Me</h2>
 
@@ -48,7 +48,7 @@ export default function Contact() {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/udayveer/"
+                href="https://www.linkedin.com/in/udayveer-singh13032003"
                 target="_blank"
                 className="text-white bg-blue-600 px-4 py-2 rounded-md"
               >
@@ -65,7 +65,7 @@ export default function Contact() {
                 placeholder="Your Name"
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
-                className="border border-gray-300 px-4 py-2 rounded-md"
+                className="border border-white px-4 py-2 rounded-md"
               />
 
               <input
@@ -73,7 +73,7 @@ export default function Contact() {
                 placeholder="Your Email"
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
-                className="border border-gray-300 px-4 py-2 rounded-md"
+                className="border border-white px-4 py-2 rounded-md"
               />
 
               <textarea
@@ -81,7 +81,7 @@ export default function Contact() {
                 placeholder="Your Message"
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
-                className="border border-gray-300 px-4 py-2 rounded-md"
+                className="border border-white px-4 py-2 rounded-md"
               ></textarea>
 
               <button

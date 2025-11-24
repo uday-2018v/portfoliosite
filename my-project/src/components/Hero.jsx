@@ -28,7 +28,7 @@ export default function Hero() {
 
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
-          <img src="./images/bussiness.png" alt="Udayveer Singh" className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white" />
+          <img src="./images/photo2.jpg" alt="Udayveer Singh" className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white" />
         </div>
 
       </div>

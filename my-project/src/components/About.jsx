@@ -2,12 +2,12 @@
 
 export default function About() {
   return (
-    <section className="py-20 bg-gray-50" id="about">
+    <section className="py-20 bg-gray-300" id="about">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
-          <img src="./images/about.png" alt="About Me" className="w-64 h-64 rounded-full object-cover shadow-lg" />
+          <img src="./images/Personal.jpg" alt="About Me" className="w-64 h-64 rounded-full object-cover shadow-lg" />
         </div>
 
         {/* Text */}

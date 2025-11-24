@@ -17,9 +17,9 @@ export default function Footer() {
 
         {/* Social Links */}
         <div className="flex gap-6 justify-center mt-6 text-xl">
-          <a href="#" className="hover:text-white transition">GitHub</a>
-          <a href="#" className="hover:text-white transition">Instagram</a>
-          <a href="#" className="hover:text-white transition">LinkedIn</a>
+          <a href="https://github.com/uday-2018v" className="hover:text-white transition">GitHub</a>
+          <a href="https://www.instagram.com/uvsk1303" className="hover:text-white transition">Instagram</a>
+          <a href="https://www.linkedin.com/in/udayveer-singh13032003" className="hover:text-white transition">LinkedIn</a>
         </div>
 
         {/* Copyright */}

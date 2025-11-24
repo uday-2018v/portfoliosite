@@ -16,7 +16,7 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB"],
     github: "https://github.com/uday-2018v/ecommerce-app",
     live: "#",
-    image: "/project2.png",
+    image: "/images/bussiness.png",
   },
   {
     title: "Chat Application",
@@ -24,13 +24,13 @@ const projects = [
     tech: ["React", "Node.js", "Socket.io"],
     github: "https://github.com/uday-2018v/chat-app",
     live: "#",
-    image: "/project3.png",
+    image: "/images/about.png",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="py-20 bg-gray-50" id="projects">
+    <section className="py-20 bg-gray-300" id="projects ">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-10 text-center">My Projects</h2>
 
