@@ -4,9 +4,9 @@ import AnimatedBackground from "./AnimatedBackground";
 
 export default function Hero() {
   return (
-    <section className=" text-white min-h-screen flex items-center">
+    <section className=" text-white min-h-[90vh] flex items-center">
             <AnimatedBackground />
-      <div className="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-2">
         
         {/* Text */}
         <div className="md:w-1/2">
